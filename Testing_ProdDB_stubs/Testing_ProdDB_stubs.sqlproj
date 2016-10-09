@@ -245,4 +245,12 @@
   <ItemGroup>
     <PostDeploy Include="Script.PostDeployment.Exec_tSQLt.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ProdDB\ProdDB_stubsprocs.sqlproj">
+      <Name>ProdDB_stubsprocs</Name>
+      <Project>{34c6784e-861d-4987-bf25-6027d2eb9858}</Project>
+      <Private>True</Private>
+      <SuppressMissingDependenciesErrors>True</SuppressMissingDependenciesErrors>
+    </ProjectReference>
+  </ItemGroup>
 </Project>
