@@ -227,6 +227,7 @@
     <Build Include="tSQLt\User Defined Types\AssertStringTable.sql" />
     <Build Include="Security\tSQLt.sql" />
     <Build Include="Tests\Add_SuperHero\Add_SuperHero.sql" />
+    <Build Include="Tests\Add_SuperHero\test Add_SuperHero returns the inputs.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assemblies\tSQLtCLR.dll" />
